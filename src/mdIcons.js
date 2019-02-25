@@ -2,6 +2,9 @@
 import CheckboxMarked from "vue-material-design-icons/CheckboxMarked";
 import CheckboxBlank from "vue-material-design-icons/CheckboxBlankOutline";
 
+import RadioboxBlank from "vue-material-design-icons/RadioboxBlank";
+import RadioboxMarked from "vue-material-design-icons/RadioboxMarked";
+
 const MdIcons = {
 
   checkbox_on: {
@@ -18,6 +21,19 @@ const MdIcons = {
     }
   },
 
+  radio_on: {
+    component: RadioboxMarked,
+    props: {
+      title: ''
+    }
+  },
+
+  radio_off: {
+    component: RadioboxBlank,
+    props: {
+      title: ''
+    }
+  },
 
 };
 
